@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3be9043a-ae4e-44ba-9714-1b70258d7405" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_Government] [COLOR_FLOAT_CULTURE]Sassanid</Name>
+    <Description>Adds the Sassanid civilization with Boran, Kawad I, and Shapur I as its leaders.</Description>
+    <Teaser>Adds the Sassanid civilization.</Teaser>
+    <Authors>SailorCat, ChimpanG, Chrisy, p0kiehl, SeelingCat, TheCrazyScotsman, Digihuman, Pixie</Authors>
+    <SpecialThanks>Disco, JFD, Leugi, Sukritact</SpecialThanks>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="XP1">
+        <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>CIVITAS_Sassanid_Leader_Settings.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_Config.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Config.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="ModArt">
+      <File>CIVITAS Sassanid.dep</File>
+    </UpdateArt>
+    <UpdateText id="Localization">
+      <File>Core/Civilization/CVS_Sassanid_Localization.xml</File>
+      <File>Core/Leaders/Boran/CVS_Boran_Text.xml</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Text.xml</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Text.xml</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Text_Updates.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Text_Updates.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/CVS_Sassanid_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="ModSupport">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <File>Core/ModSupport/SatrapsCourt_Config.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Civilization">
+      <Properties>
+        <LoadOrder>105</LoadOrder>
+      </Properties>
+      <File>Core/Civilization/CVS_Sassanid_Defines.sql</File>
+      <File>Core/Civilization/CVS_Sassanid_DynamicModifiers.sql</File>
+      <File>Core/Civilization/CVS_Sassanid_Traits.sql</File>
+      <File>Core/Civilization/CVS_Sassanid_UD.sql</File>
+      <File>Core/Civilization/CVS_Sassanid_UD_Project.sql</File>
+      <File>Core/Civilization/CVS_Sassanid_UU.sql</File>
+      <File>Core/Civilization/CVS_Sassanid_UU_Promotions.sql</File>
+      <File>CIVITAS_Sassanid_Leader_Settings.sql</File>
+      <File>Core/Civilization/CVS_Sassanid_Traits_Expac.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Boran">
+      <Properties>
+        <LoadOrder>106</LoadOrder>
+      </Properties>
+      <File>Core/Leaders/Boran/CVS_Boran_GameDefines.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_DynamicModifiers.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_Traits_Vanilla.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_Agenda.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_UI.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_AI.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Kawad">
+      <Properties>
+        <LoadOrder>106</LoadOrder>
+      </Properties>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_GameDefines.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_DynamicModifiers.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Traits_Vanilla.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Agenda.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_UI.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_AI.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Shapur">
+      <Properties>
+        <LoadOrder>106</LoadOrder>
+      </Properties>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_GameDefines.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_DynamicModifiers.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Traits.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Agenda.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_UU.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_AI.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Traits_Vanilla.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Localization">
+      <File>Core/Civilization/CVS_Sassanid_Localization.xml</File>
+      <File>Core/Leaders/Boran/CVS_Boran_Text.xml</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Text.xml</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Text.xml</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Text_Updates.sql</File>
+    </UpdateText>
+    <UpdateText id="Cities">
+      <Properties>
+        <LoadOrder>3</LoadOrder>
+      </Properties>
+      <File>Core/Civilization/CVS_Sassanid_Cities.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/CVS_Sassanid_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ModArt">
+      <File>CIVITAS Sassanid.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="ModSupport">
+      <Properties>
+        <LoadOrder>108</LoadOrder>
+      </Properties>
+      <File>Core/ModSupport/CCN.sql</File>
+      <File>Core/ModSupport/OldWorld.sql</File>
+      <File>Core/ModSupport/RwF.sql</File>
+      <File>Core/ModSupport/YNAEMP.sql</File>
+      <File>Core/ModSupport/SatrapsCourt_Traits.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ModSupportLocalization">
+      <Properties>
+        <LoadOrder>108</LoadOrder>
+      </Properties>
+      <File>Core/ModSupport/RwF.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="Expansion">
+      <Properties>
+        <LoadOrder>107</LoadOrder>
+      </Properties>
+      <Criteria>XP1</Criteria>
+      <File>Core/Civilization/CVS_Sassanid_HM.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_HM.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_HM.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_Traits_Expac.sql</File>
+      <File>Core/Leaders/Shapur I/CVS_Shapur_I_HM.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_Traits_Expac.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="ExpansionLua">
+      <Properties>
+        <LoadOrder>107</LoadOrder>
+      </Properties>
+      <Criteria>XP1</Criteria>
+      <File>Core/Leaders/Boran/Lua/CVS_Boran_Wonder_EraScore.lua</File>
+    </AddGameplayScripts>
+    <AddGameplayScripts id="Lua">
+      <Properties>
+        <LoadOrder>106</LoadOrder>
+      </Properties>
+      <File>Core/Civilization/Lua/CVS_Sassanid_UP_RoyalHunt.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Cultures.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Artdefs/StrategicView.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Artdefs/Unit_Bins.artdef</File>
+    <File>Assets/Aswar_HorseArmorA.ast</File>
+    <File>Assets/Aswar_RiderArmor.ast</File>
+    <File>Assets/CVS_Daylam_UU.ast</File>
+    <File>Assets/CVS_Daylam_UU_Alt.ast</File>
+    <File>Assets/CVS_DIZ_Pomegranate.ast</File>
+    <File>Assets/CVS_Sassanid_UU.ast</File>
+    <File>Assets/CVS_Sassanid_UU_Alt.ast</File>
+    <File>Assets/CVS_Shapur_I_UU_Axe.ast</File>
+    <File>Assets/CVS_Shapur_I_UU_Shield.ast</File>
+    <File>Assets/CVS_Shapur_I_UU_Sword.ast</File>
+    <File>Assets/DIS_COM_CVS_Amargar.ast</File>
+    <File>Assets/DIS_COM_CVS_Amargar_dist.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_01.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_03.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_06.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_09.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_12.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_15.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_16.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_17.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_18.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_19.ast</File>
+    <File>Assets/DIS_CVS_Wishkar_Base.ast</File>
+    <File>Assets/DIS_CVS_Wishkar_Entry.ast</File>
+    <File>Assets/DIS_CVS_Wishkar_HorseStatue.ast</File>
+    <File>Assets/DIS_CVS_Wishkar_Rice_Water.ast</File>
+    <File>Assets/DIS_CVS_Wishkar_Tower.ast</File>
+    <File>Assets/DIS_CVS_Wishkar_Ziggurat_Wall.ast</File>
+    <File>Assets/DIS_CVS_Wishkar_Ziggurat_WSML.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Farm_Square_01.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Farm_Transition_01.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Farm_Wheat.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Wine_A.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Wine_B.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Wine_C.ast</File>
+    <File>Assets/IMP_CVS_DIZ.ast</File>
+    <File>Assets/IMP_CVS_DIZ_2.ast</File>
+    <File>CIVITAS Sassanid.dep</File>
+    <File>CIVITAS_Sassanid_Leader_Settings.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_Cities.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_Defines.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_DynamicModifiers.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_HM.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_Localization.xml</File>
+    <File>Core/Civilization/CVS_Sassanid_Traits.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_Traits_Expac.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_UD.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_UD_Project.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_UU.sql</File>
+    <File>Core/Civilization/CVS_Sassanid_UU_Promotions.sql</File>
+    <File>Core/Civilization/Lua/CVS_Sassanid_UP_RoyalHunt.lua</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Agenda.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_AI.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Config.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_DynamicModifiers.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_GameDefines.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_HM.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Text.xml</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Traits_Expac.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Traits_Vanilla.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_UI.sql</File>
+    <File>Core/Leaders/Boran/Lua/CVS_Boran_Wonder_EraScore.lua</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Agenda.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_AI.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Config.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_DynamicModifiers.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_GameDefines.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_HM.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Text.xml</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Traits_Vanilla.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_UI.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_Agenda.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_AI.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_Config.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_DynamicModifiers.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_GameDefines.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_HM.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_Text.xml</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_Text_Updates.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_Traits.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_Traits_Expac.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_Traits_Vanilla.sql</File>
+    <File>Core/Leaders/Shapur I/CVS_Shapur_I_UU.sql</File>
+    <File>Core/ModSupport/CCN.sql</File>
+    <File>Core/ModSupport/OldWorld.sql</File>
+    <File>Core/ModSupport/RwF.sql</File>
+    <File>Core/ModSupport/RwF.xml</File>
+    <File>Core/ModSupport/SatrapsCourt_Config.sql</File>
+    <File>Core/ModSupport/SatrapsCourt_Traits.sql</File>
+    <File>Core/ModSupport/YNAEMP.sql</File>
+    <File>Icons/CVS_Sassanid_Icons.xml</File>
+    <File>Materials/Aswar_HorseMaterial.mtl</File>
+    <File>Materials/Aswar_RiderMaterial.mtl</File>
+    <File>Materials/CVS_Daylam_UU_Alt_Mat.mtl</File>
+    <File>Materials/CVS_Daylam_UU_Mat.mtl</File>
+    <File>Materials/CVS_DIZ_Pomegranate_Material.mtl</File>
+    <File>Materials/CVS_Sassanid_UU.mtl</File>
+    <File>Materials/CVS_Sassanid_UU_Alt.mtl</File>
+    <File>Materials/CVS_Sassanid_UU_Var.mtl</File>
+    <File>Materials/CVS_Shapur_I_UU_Axe.mtl</File>
+    <File>Materials/CVS_Shapur_I_UU_Shield_Mat.mtl</File>
+    <File>Materials/CVS_Shapur_I_UU_Sword_Mat.mtl</File>
+    <File>Materials/DIS_CVS_Dibirestan_Material.mtl</File>
+    <File>Materials/DIS_CVS_Diz_Adobe_Alt.mtl</File>
+    <File>Materials/DIS_CVS_Diz_Adobe_Mat.mtl</File>
+    <File>Materials/DIS_CVS_Wishkar_Mugal.mtl</File>
+    <File>Materials/DIS_CVS_Wishkar_Rice_Material.mtl</File>
+    <File>Materials/DIS_CVS_Wishkar_Statue.mtl</File>
+    <File>Materials/DIS_CVS_Wishkar_Wall_Material.mtl</File>
+    <File>Platforms/MacOS/BLPs/landmarks/hero_buildings.blp</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDefendA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDefendA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_AttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_DodgeA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_HeroAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_SpawnA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_BreathingA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_BreathingA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_CombatIdleA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunFwdB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CombatRun_SwordAndShieldA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunStop_SwordAndShieldA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_SwordAndShieldA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_SwordAndShieldA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_SwordAndShieldA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_Death</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_HeroDeath</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AswarRider_Metalness3</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Aswar_HorseMetalness5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Aswar_Normal_30</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Aswar_Normal_31</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Axe_M3</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Shield_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Shield_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Shield_N30</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Shield_N31</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Sword_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_AswarBaseColor_mamluk_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Aswar_BaseColor_2_mamluk_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Daylam_UU_Alt_B5_Scout_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Daylam_UU_B8_Scout_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_DIZ_Pomegranate_BaseColor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Sassanid_UU_Horse_Armor_Knight_Var_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Sassanid_UU_Horse_B_2_Knight_HorseArmor_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Sassanid_UU_Horse_B_3_CVS_Sassanid_UU_Horse_Tint_2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Shapur_I_UU_Axe_B2_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Shapur_I_UU_Shield_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Shapur_I_UU_Sword_B2_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_COM_Base_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AB_Base_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Diz_Pomebase_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Wishkar_HorseStatueG_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Wishkar_Rice_Terrace_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Wishkar_RY_Wall_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_THR_Base_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_Wishkar_Base_GC_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_AMARGARESTAN_Farm_B2_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_AMARGARESTAN_Farm_Wheat_B2_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_CVS_AMARGARESTAN_Pistachio_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Decals_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Decals_PIL_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Rice_Decals_PIL_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Wheat_Decals_PIL_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Wheat_Decals_Unworked_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Ziggurat_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Kawad_Amargar_BaseColor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillage_Construction_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Citrus_B_Unworked_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Wine_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Wine_B_Unworked_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_Light_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Bld_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Bld_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Metalness_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Opacity_Map_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Opacity_Pot_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Wishkar_HorseStatueG_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Wishkar_Rice_Terrace</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_Wishkar_Opacity_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal_Light</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_AMARGARESTAN_Farm_B2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_AMARGARESTAN_Farm_Wheat_B2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_H_PIL</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_PIL</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Rice_Decals_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Rice_Decals_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Rice_Decals_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Rice_Decals_PIL</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_H_PIL</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_PIL</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_Unworked</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Kawad_Amargar_Metalness</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_m</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_m</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Var_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_legion_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_mamluk_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_mamluk_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Wine_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Wine_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Wine_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Wine_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_Light</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Scout_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Scout_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Scout_m</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Scout_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Scout_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_districts.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/units/units.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/hero_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDefendA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleD</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDefendA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_AttackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_DodgeA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_HeroAttackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatD</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedD</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_SpawnA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_BreathingA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_BreathingA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_CombatIdleA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleD</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunFwdB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopD</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CombatRun_SwordAndShieldA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunStop_SwordAndShieldA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_SwordAndShieldA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_SwordAndShieldA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_SwordAndShieldA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_Death</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_HeroDeath</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AswarRider_Metalness3</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Aswar_HorseMetalness5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Aswar_Normal_30</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Aswar_Normal_31</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Berzerker_ArmorA_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Axe_M3</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Shield_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Shield_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Shield_N30</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Shield_N31</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CVS_Shapur_I_UU_Sword_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_AswarBaseColor_mamluk_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Aswar_BaseColor_2_mamluk_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Daylam_UU_Alt_B5_Scout_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Daylam_UU_B8_Scout_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_DIZ_Pomegranate_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Sassanid_UU_Horse_Armor_Knight_Var_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Sassanid_UU_Horse_B_2_Knight_HorseArmor_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Sassanid_UU_Horse_B_3_CVS_Sassanid_UU_Horse_Tint_2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Shapur_I_UU_Axe_B2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Shapur_I_UU_Shield_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_Shapur_I_UU_Sword_B2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_COM_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AB_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Diz_Pomebase_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Wishkar_HorseStatueG_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Wishkar_Rice_Terrace_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Wishkar_RY_Wall_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_THR_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_Wishkar_Base_GC_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_AMARGARESTAN_Farm_B2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_AMARGARESTAN_Farm_Wheat_B2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_CVS_AMARGARESTAN_Pistachio_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Decals_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Decals_PIL_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Rice_Decals_PIL_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Wheat_Decals_PIL_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Wheat_Decals_Unworked_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Ziggurat_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Kawad_Amargar_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillage_Construction_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Citrus_B_Unworked_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Wine_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Wine_B_Unworked_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_Light_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Bld_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Bld_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Metalness_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Opacity_Map_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Opacity_Pot_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Wishkar_HorseStatueG_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Wishkar_Rice_Terrace</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Wishkar_Opacity_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal_Light</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_AMARGARESTAN_Farm_B2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_AMARGARESTAN_Farm_Wheat_B2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_H_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Rice_Decals_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Rice_Decals_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Rice_Decals_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Rice_Decals_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_H_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_Unworked</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Ziggurat_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Kawad_Amargar_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_m</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_HorseArmor_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_m</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Var_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_legion_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_mamluk_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_mamluk_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Wine_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Wine_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Wine_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Wine_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_Light</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Scout_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Scout_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Scout_m</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Scout_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Scout_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_districts.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/units/units.blp</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_22.dds</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_22.tex</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_256.dds</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_256.tex</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_32.dds</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_32.tex</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_38.dds</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_38.tex</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_50.dds</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_50.tex</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_80.dds</File>
+    <File>Textures/ICON_UNIT_CVS_Shapur_I_UU_80.tex</File>
+    <File>XLPs/Atlas.xlp</File>
+    <File>XLPs/hero_buildings.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/StrategicView_Districts.xlp</File>
+    <File>XLPs/tilebases.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+    <File>XLPs/Units.xlp</File>
+  </Files>
+</Mod>

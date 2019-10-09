@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Boran / Text-->
+<GameData>
+	<LocalizedText>
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_CVS_BORAN_NAME" Language="en_US">
+			<Text>Boran</Text>
+		</Row>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_CVS_BORAN" Language="en_US">
+			<Text>Steel yourself, Queen Boran. For in a time of regicide and interregnum, when sitting on the throne is a privilege few would envy, you must assume the mantle of the stalwart ruler. To stabilize the realm, you must reunite and rebuild; to save the dynasty, you must restore its memory. Yours is no easy task. You alone stand between your empire and oblivion.</Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_TITLE" Language="en_US">
+			<Text>Boran</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_SUBTITLE" Language="en_US">
+			<Text>Queen of Queens</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_QUOTE" Language="en_US">
+			<Text>
+				"Where is that greatness now, your high renown. Your glory and your throne and royal crown?" — the Shahnameh by Abolqasem Ferdowsi
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				The decline and eventual fall of the Sassanid Empire was a turbulent period during which the throne was victim to the growing power of generals and the ever-present influence of the seven Parthian dynastic families. As such, anyone unfortunate enough to sit on the throne had a hard time of it.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>
+				Boran was no exception. She was first crowned as daughter of the late Khosrow II, whose royal blood had been all but snuffed out. This was a time when Shahrbaraz, a general under her father, had seized the throne: a demonstration of just how out-of-control affairs had become. Farrukh Hormuzd, a nobleman belonging to one of the Seven Parthian Houses, had Shahrbaraz murdered, and Boran, who shared blood with Farrukh, was then installed as ruler.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>
+				It is possible that her rise to the throne began well before seven-year-old Ardashir III, the rightful heir, was murdered by Shahrbaraz. Her coinage had been issued a year before the deed, so it wouldn't be far-fetched to believe that, in the division and chaos that had the Sassanids on the ropes, Boran had begun her play for regency well before being crowned—perhaps with the backing of the Pahlav.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Boran would witness firsthand the effects of meddling, as her reign would be abruptly truncated, and her deposed, by the very man who had championed her cause. These internal disputes between dynastic families would come to a head with the assassination of Farrukh, who had taken the throne from Boran, by Azarmidukht (Boran's sister and Khosrow II's daughter) and the Parsig faction, and her subsequent murder by Farrukh's son, Rustam, of the Pahlav faction. All the while, Boran would earn her keep as an arbiter between these two powerful families while scheming herself, and in doing so, would reappear on the throne after the murder of her sister.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>During her reign, Boran would seek to bring stability to the realm and re-establish the Sassanid Empire by cooperating with Rustam. She recognized the dire condition of her family's legacy, and took measures to restore its authority, even at the concession of her own power. In seeking to remember his glory and revive his memory, she minted coins in the style of her father, Khosrow II. What's more, with these coins she alluded to the long-abandoned legend that designated Sassanid rulers as of the "race of the gods". This was especially important because it hearkened to a title that hadn't been in vogue for centuries. Boran sought to impress upon her people that trespassing on the throne was sacrilege; that the king of kings should once again be extolled properly.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>
+				To make matters worse for Boran and the Sassanid Empire, Arab incursions were already underway. During the aforementioned reign of Shahvaraz, strong winds were blowing from the direction of Arabia. So it was all the more important that these quarreling factions set aside their differences and come together for the good of the land. To do this, Boran prevailed upon the Parthian dynasties to take up arms. Her word got through, and Rustam, along with allies from far and wide, rallied to oppose the Arab host. With their alliance came a resounding victory at the Battle of the Bridge. However, the triumph would be short-lived, as their alliance was soon to crumble.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>
+				This manifested in a Parsig-backed revolt that culminated in the murder of Boran by the Parsig leader, Firuzan.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>
+				Boran is best suited to the sort of player who wants to batten down the hatches. Dig in your heels, erect Wonders, influence city-states, and secure your borders.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_BORAN_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>
+				To best take advantage of Boran, endeavor to spread your Wonders evenly throughout your cities. Once you've achieved as much, station units on these Wonders and reap further rewards in currying favor with city-states. Meanwhile, scatter her Diz improvement throughout your empire to better repel those who would seek to invade it. In this, Boran is incredibly flexible, but most suited to a cultural victory thanks to Sassanid traits and her penchant for Wonders.
+			</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Drod abar tō, friend. Peace be with you. I am Boran, queen of Iran, daughter of the mighty Khosrow II, and restorer of the race of the Gods.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>What say you to the hospitality of our nearest city? There's a ewer of the finest Babylonian wine with your name on it. Or Bazrang if you prefer.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>I'd be delighted.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>I invite you to witness Ctesiphon in all its splendor, to share with me the vista of cities that have come together to flourish on the Tigris. Would you return the favor?</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>How can I be of service?</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>The Keeper of the Curtain will see to it that your delegation observes due protocol.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Now isn't the best time. If it isn't the clergy, it's the courtiers. You know how it is...</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Nisaean stallions are prized the world over. All the more reason for you to welcome my delegation.</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>You have my blessing. Wherever your destination, our waystations will ease the burden of travel.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>With the best interests of Iran in mind, I must decline.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>My subjects wish to strike out into the world. Will you grant them passage?</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>We are each of us a lone rider, the horizon our end. So on those rare occasions when our paths converge, we should take comfort in friendship. I accept.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>I must decline. Would that I knew you better.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Our achievements are hollow without friends with whom to share them. Shall we then declare our bond?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Terrific.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Very well.</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Ally with me, and any who raise sword and spear against the seven climes will tremble before our combined efforts. </Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Far be it from me to disrupt their gawking, but your troops seem enthralled by my many wonders and walls.</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>A pleasure doing business with you.</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>That will not do.</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Watch your words. Once spoken, they carry weight. Too heavy, and you will find yourself interred.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Your reign is as backwards and ill-conceived as a div, you toenail-swallowing fool. (Denounces You.)</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Your march through my realm will be one that is dashed against fortification after fortification, as you'll soon learn.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>There comes a time when the arbiter must abandon neutrality to deal with an unruly party. Consider yourself dealt with.</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>There is no shame in slinking away. I'll allow you your retreat.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>I'll oppose you tooth and nail if I must.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>The fortunes of war are mercurial at best. At times, even the lion must withdraw. Peace, then?</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>The ancient heavens turn; kings disappear. Now Ardavan is gone, now Ardeshir. And though our heads reach to the stars, we must at last be humbled in the lowly dust.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>The ancient heavens turn; kings disappear. Now Ardavan is gone, now Ardeshir. And though our heads reach to the stars, we must at last be humbled in the lowly dust.</Text>
+		</Row>
+
+
+		<!--Leader Agenda-->
+		<Row Tag="LOC_AGENDA_CVS_BANBISHNAN_BANBISHN_NAME" Language="en_US">
+			<Text>Bānbišnān Bānbišn</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_CVS_BANBISHNAN_BANBISHN_DESCRIPTION" Language="en_US">
+			<Text>Boran despises those who compete with her for city-states, and befriends those who build walls. She will attempt to build wonders and curry favor with city-states.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CVS_BORAN_REASON_CS_COMPETING" Language="en_US">
+			<Text>(You are competing for city-states.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CVS_BANBISHNAN_BANBISHN_CS_COMPETING" Language="en_US">
+			<Text>Boran is troubled by your bids to influence her city-states.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_CVS_BORAN_REASON_BUILDS_THE_WALL" Language="en_US">
+			<Text>(You are building city walls.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CVS_BANBISHNAN_BANBISHN_BUILDS_THE_WALL" Language="en_US">
+			<Text>Boran approves of your fortifications.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CVS_BORAN_REASON_NOT_BUILDS_THE_WALL" Language="en_US">
+			<Text>(You are not building city walls.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CVS_BANBISHNAN_BANBISHN_NOT_BUILDS_THE_WALL" Language="en_US">
+			<Text>Boran dislikes those who do not fortify their cities.</Text>
+		</Row>
+
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Walls unify, soothe, protect. You claim your horizon with mortar and stone, but tread lightly when near my own. Bravo.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CVS_BORAN_ANY" Language="en_US">
+			<Text>Continue to court my demesne and you'll soon wish you hadn't been so neglectful in erecting fortifications.</Text>
+		</Row>
+
+
+		<!--Leader Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_CVS_BORAN_UA_NAME" Language="en_US">
+			<Text>Restorer of the Race of the Gods</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_CVS_BORAN_UA_DESCRIPTION" Language="en_US">
+			<Text>A city's first wonder is built 15% faster, and wonders generate +1 [ICON_InfluencePerTurn] Influence Points. Pay half the usual cost to levy city-state units.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_CVS_BORAN_UA_EXPAC_DESCRIPTION" Language="en_US">
+			<Text>A city's first wonder is built 15% faster, and wonders generate +1 [ICON_InfluencePerTurn] Influence Points. Gain an extra +2 [ICON_GLORY_GOLDEN_AGE] Era Score upon completing a wonder.</Text>
+		</Row>
+		
+		<!--Moment-->
+		<Row Tag="LOC_MOMENT_TRAIT_LEADER_CVS_BORAN_UA" Language="en_US">
+			<Text>Restorer of the Race of the Gods</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_TRAIT_LEADER_CVS_BORAN_UA_DESCRIPTION" Language="en_US">
+			<Text>Your civilization has completed a wonder.</Text>
+		</Row>
+		<Row Tag="LOC_MOMENT_TRAIT_LEADER_CVS_BORAN_UA_INSTANCE_DESCRIPTION" Language="en_US">
+			<Text>With every wonder, the Sassanid Empire reclaims lost glory.</Text>
+		</Row>
+		
+		<!--Diz-->
+		<Row Tag="LOC_IMPROVEMENT_CVS_DIZ_NAME" Language="en_US">
+			<Text>Diz</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_CVS_DIZ_DESCRIPTION" Language="en_US">
+			<Text>Fort that yields +1 [ICON_Production] Production and +1 [ICON_Culture] Culture. Ranged units exert Zone of Control when stationed on a Diz. Unlocks with the Defensive Tactics civic, and cannot be built adjacent to another Diz.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CVS_DIZ_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				Diz, the Middle Persian word for castle or fortress, has been used in the broader sense here to cover the many fortifications throughout the Sassanid Empire: waystations, castles, citadels, walls, and more.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CVS_DIZ_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>
+				Immediately recognizable in Sassanid fortifications is where they differ from their Roman counterparts. Where the Romans favored square plans with square towers situated in the middle of a wall, Sassanids were varied, especially in adapting to the terrain, and their plans included heavy, strongly projecting, semicircular or parabolic towers situated at the corners of their fortifications.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CVS_DIZ_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>
+				Sprawling as the empire was, these fortifications served an important purpose. In the form of waystations established every 25–30 kilometers, they eased minds and encouraged trade. They allowed the empire's frontiers to resist invaders until a rebuttal could be set in motion. This abundance of fortifications, however, served as a double-edged blade to be taken advantage of by rebellions and revolts.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CVS_DIZ_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>
+				Most notable were the limes and walls that limned the borders of the Sassanid Empire. To the north, in the Caucasus, there was the Wall of Derbent and Caspian Gate; to the west, there were fortified cities and defenses against Rome; to the southwest, there was the Wall of the Arabs; to the northeast, the Great Wall of Gorgan; to the southeast, bulwarks in and around Sistan.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CVS_DIZ_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>
+				In his recent essay "If these Walls Could Speak: The Barrier of Alexander, Wall of Darband and Other Defensive Moats", Touraj Daryaee proposes a symbolic and psychological meaning to Sassanid fortifications; that they symbolized a garden or orchard: an enclosure for the glory of the empire that protected it from those who would wish it harm. They encouraged a sense of community and cultural identity. What's more, it established those beyond the wall as the "other," as expressed in Eran and An-Eran.
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

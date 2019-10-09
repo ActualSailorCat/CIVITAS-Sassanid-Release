@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!--MOD SUPPORT-->
+
+		<!--JFD Rule with Faith-->
+		<Row Tag="LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Salar</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Marzbān</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Mobed</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Šāh</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Āzād</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Wuzurg</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_FEUDAL_MONARCHY_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Šāhanšāh</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MERCHANT_REPUBLIC_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Kirrogbed</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_GOVERNMENT_THEOCRACY_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Mobedan Mobed</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Wuzurg-framādār</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_PEOPLES_REPUBLIC_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Šāhanšāh</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MILITARY_GUARDIANSHIP_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Ērān-spāhbed</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_SAILOR_SASANIAN" Language="en_US">
+			<Text>Šāhanšāh</Text>
+		</Row>
+
+		<Row Tag="LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Salar</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Marzbān</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Mobed</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Bānbišn</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Āzād</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Wuzurg</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_FEUDAL_MONARCHY_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Bānbišnan Bānbišn</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MERCHANT_REPUBLIC_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Kirrogbed</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_GOVERNMENT_THEOCRACY_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Mobedān Mobed</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Wuzurg-framādār</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_PEOPLES_REPUBLIC_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Bānbišnan Bānbišn</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MILITARY_GUARDIANSHIP_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Ērān-spāhbed</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_SAILOR_SASANIAN_FEMININE" Language="en_US">
+			<Text>Bānbišnan Bānbišn</Text>
+		</Row>
+		<Replace>
+			<Tag>LOC_CIVILIZATION_SAILOR_SASANIAN_DESCRIPTION_JFD_CIVILIZATION</Tag>
+			<Language>en_US</Language>
+			<Text>Sassanid Empire</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

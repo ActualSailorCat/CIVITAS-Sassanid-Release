@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Sasanian / Civilization by CIVITAS
+    Sasanian / Kawad I by CIVITAS-->
+<GameData>
+	<Players>
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_SAILOR_SASANIAN"
+			 LeaderType="LEADER_SAILOR_KAWAD_I"
+			 CivilizationName="LOC_CIVILIZATION_SAILOR_SASANIAN_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_SAILOR_KAWAD_I_COLOR"
+			 LeaderName="LOC_LEADER_SAILOR_KAWAD_I_NAME"
+			 LeaderIcon="ICON_LEADER_SAILOR_KAWAD_I"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_SAILOR_SOTSR_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_SAILOR_SOTSR_DESCRIPTION" 
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_SAILOR_KAWAD_I_COLOR"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_SAILOR_KAWAD_I_TTBAM_NAME" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_SAILOR_KAWAD_I_TTBAM_DESCRIPTION" 
+			 LeaderAbilityIcon="ICON_LEADER_SAILOR_KAWAD_I" 
+			 PortraitBackground="LEADER_SAILOR_KAWAD_I_BACKGROUND"/>
+	</Players>
+
+	<Players>
+		<Row  CivilizationType="CIVILIZATION_SAILOR_SASANIAN"
+			 LeaderType="LEADER_SAILOR_KAWAD_I"
+			 CivilizationName="LOC_CIVILIZATION_SAILOR_SASANIAN_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_SAILOR_KAWAD_I_COLOR"
+			 LeaderName="LOC_LEADER_SAILOR_KAWAD_I_NAME"
+			 LeaderIcon="ICON_LEADER_SAILOR_KAWAD_I"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_SAILOR_SOTSR_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_SAILOR_SOTSR_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_SAILOR_KAWAD_I_COLOR"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_SAILOR_KAWAD_I_TTBAM_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_SAILOR_KAWAD_I_TTBAM_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_SAILOR_KAWAD_I"
+			 PortraitBackground="LEADER_SAILOR_KAWAD_I_BACKGROUND"/>
+	</Players>
+	
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_SAILOR_SASANIAN" 
+			 LeaderType="LEADER_SAILOR_KAWAD_I" 
+			 Type="UNIT_SAILOR_ASWAR" 
+			 Icon="ICON_UNIT_SAILOR_ASWAR" 
+			 Name="LOC_UNIT_SAILOR_ASWAR_NAME" 
+			 Description="LOC_UNIT_SAILOR_ASWAR_DESCRIPTION" 
+			 SortIndex="10"/>
+		
+		<Row CivilizationType="CIVILIZATION_SAILOR_SASANIAN" 
+			 LeaderType="LEADER_SAILOR_KAWAD_I" 
+			 Type="DISTRICT_SAILOR_HUNTINGPARK" 
+			 Icon="ICON_DISTRICT_SAILOR_HUNTINGPARK" 
+			 Name="LOC_DISTRICT_SAILOR_HUNTINGPARK_NAME" 
+			 Description="LOC_DISTRICT_SAILOR_HUNTINGPARK_DESCRIPTION" 
+			 SortIndex="20"/>
+
+		<Row CivilizationType="CIVILIZATION_SAILOR_SASANIAN"
+			 LeaderType="LEADER_SAILOR_KAWAD_I"
+			 Type="BUILDING_SAILOR_AMARGAR"
+			 Icon="ICON_BUILDING_SAILOR_AMARGAR"
+			 Name="LOC_BUILDING_SAILOR_AMARGAR_NAME"
+			 Description="LOC_BUILDING_SAILOR_AMARGAR_DESCRIPTION"
+			 SortIndex="30"/>
+	</PlayerItems>
+
+	<PlayerItems>
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_SAILOR_SASANIAN"
+			 LeaderType="LEADER_SAILOR_KAWAD_I"
+			 Type="UNIT_SAILOR_ASWAR"
+			 Icon="ICON_UNIT_SAILOR_ASWAR"
+			 Name="LOC_UNIT_SAILOR_ASWAR_NAME"
+			 Description="LOC_UNIT_SAILOR_ASWAR_DESCRIPTION"
+			 SortIndex="10"/>
+
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_SAILOR_SASANIAN"
+			 LeaderType="LEADER_SAILOR_KAWAD_I"
+			 Type="DISTRICT_SAILOR_HUNTINGPARK"
+			 Icon="ICON_DISTRICT_SAILOR_HUNTINGPARK"
+			 Name="LOC_DISTRICT_SAILOR_HUNTINGPARK_NAME"
+			 Description="LOC_DISTRICT_SAILOR_HUNTINGPARK_DESCRIPTION"
+			 SortIndex="20"/>
+
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_SAILOR_SASANIAN"
+			 LeaderType="LEADER_SAILOR_KAWAD_I"
+			 Type="BUILDING_SAILOR_AMARGAR"
+			 Icon="ICON_BUILDING_SAILOR_AMARGAR"
+			 Name="LOC_BUILDING_SAILOR_AMARGAR_NAME"
+			 Description="LOC_BUILDING_SAILOR_AMARGAR_DESCRIPTION"
+			 SortIndex="30"/>
+	</PlayerItems>
+</GameData>

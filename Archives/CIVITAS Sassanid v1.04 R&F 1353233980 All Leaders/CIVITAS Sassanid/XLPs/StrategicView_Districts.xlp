@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>260</build>
+		<revision>754</revision>
+	</m_Version>
+	<m_ClassName text="StrategicView_Sprite"/>
+	<m_PackageName text="strategicview/strategicview_districts"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="District_Sailor_Huntingpark_Revealed"/>
+			<m_ObjectName text="District_Sailor_Huntingpark_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="District_Sailor_Huntingpark_Revealed_Pillaged"/>
+			<m_ObjectName text="District_Sailor_Huntingpark_Revealed_Pillaged"/>
+		</Element>
+		<Element>
+			<m_EntryID text="District_Sailor_Huntingpark_Revealed_UnderConstruction"/>
+			<m_ObjectName text="District_Sailor_Huntingpark_Revealed_UnderConstruction"/>
+		</Element>
+		<Element>
+			<m_EntryID text="District_Sailor_Huntingpark_Visible"/>
+			<m_ObjectName text="District_Sailor_Huntingpark_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="District_Sailor_Huntingpark_Visible_Pillaged"/>
+			<m_ObjectName text="District_Sailor_Huntingpark_Visible_Pillaged"/>
+		</Element>
+		<Element>
+			<m_EntryID text="District_Sailor_Huntingpark_Visible_UnderConstruction"/>
+			<m_ObjectName text="District_Sailor_Huntingpark_Visible_UnderConstruction"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>
+
+ 

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+		<m_Version>
+			<major>4</major>
+			<minor>0</minor>
+			<build>253</build>
+			<revision>867</revision>
+		</m_Version>
+		<m_ClassName text="UITexture"/>
+		<m_PackageName text="UI/Icons"/>
+		<m_Entries>
+			<!--Leader-->
+			<Element>
+				<m_EntryID text="ICON_LEADER_SAILOR_KAWAD_I_256"/>
+				<m_ObjectName text="ICON_LEADER_SAILOR_KAWAD_I_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_LEADER_SAILOR_KAWAD_I_80"/>
+				<m_ObjectName text="ICON_LEADER_SAILOR_KAWAD_I_80"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_LEADER_SAILOR_KAWAD_I_64"/>
+				<m_ObjectName text="ICON_LEADER_SAILOR_KAWAD_I_64"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_LEADER_SAILOR_KAWAD_I_55"/>
+				<m_ObjectName text="ICON_LEADER_SAILOR_KAWAD_I_55"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_LEADER_SAILOR_KAWAD_I_50"/>
+				<m_ObjectName text="ICON_LEADER_SAILOR_KAWAD_I_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_LEADER_SAILOR_KAWAD_I_45"/>
+				<m_ObjectName text="ICON_LEADER_SAILOR_KAWAD_I_45"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_LEADER_SAILOR_KAWAD_I_32"/>
+				<m_ObjectName text="ICON_LEADER_SAILOR_KAWAD_I_32"/>
+			</Element>
+			<!--Kawad Leaderscreen-->
+			<!--<Element>
+				<m_EntryID text="SAILOR_KAWAD_ICON_1"/>
+				<m_ObjectName text="SAILOR_KAWAD_ICON_1"/>
+			</Element>
+			<Element>
+				<m_EntryID text="SAILOR_KAWAD_ICON_4"/>
+				<m_ObjectName text="SAILOR_KAWAD_ICON_4"/>
+			</Element>-->
+			<Element>
+				<m_EntryID text="LEADER_SAILOR_KAWAD_I_NEUTRAL"/>
+				<m_ObjectName text="LEADER_SAILOR_KAWAD_I_NEUTRAL"/>
+			</Element>
+			<Element>
+				<m_EntryID text="LEADER_SAILOR_KAWAD_I_BACKGROUND"/>
+				<m_ObjectName text="LEADER_SAILOR_KAWAD_I_BACKGROUND"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ART_LEADER_SAILOR_KAWAD_I"/>
+				<m_ObjectName text="ART_LEADER_SAILOR_KAWAD_I"/>
+			</Element>
+			<!--Kawad Color-->
+			<Element>
+				<m_EntryID text="ICON_CIV_SAILOR_KAWAD_I_COLOR_45"/>
+				<m_ObjectName text="ICON_CIV_SAILOR_KAWAD_I_COLOR_45"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_CIV_SAILOR_KAWAD_I_COLOR_256"/>
+				<m_ObjectName text="ICON_CIV_SAILOR_KAWAD_I_COLOR_256"/>
+			</Element>
+			<!--Historic Moments-->
+			<Element>
+				<m_EntryID text="Moment_UniqueUnit_Sailor_Aswar"/>
+				<m_ObjectName text="Moment_UniqueUnit_Sailor_Aswar"/>
+			</Element>
+			<Element>
+				<m_EntryID text="Moment_Infrastructure_Sailor_Wishkar"/>
+				<m_ObjectName text="Moment_Infrastructure_Sailor_Wishkar"/>
+			</Element>
+			<Element>
+				<m_EntryID text="Moment_Infrastructure_Sailor_Amargar"/>
+				<m_ObjectName text="Moment_Infrastructure_Sailor_Amargar"/>
+			</Element>
+			<!--Aswar-->
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_256"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_80"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_80"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_50"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_38"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_38"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_32"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_32"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_22"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_22"/>
+			</Element>
+			<!--Aswar Portraits-->
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_PORTRAIT_256"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_PORTRAIT_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_PORTRAIT_200"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_PORTRAIT_200"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_PORTRAIT_95"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_PORTRAIT_95"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_PORTRAIT_70"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_PORTRAIT_70"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_PORTRAIT_50"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_PORTRAIT_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ASWAR_PORTRAIT_38"/>
+				<m_ObjectName text="ICON_SAILOR_ASWAR_PORTRAIT_38"/>
+			</Element>
+			<!--Amargar-->
+			<Element>
+				<m_EntryID text="ICON_BUILDING_SAILOR_AMARGAR_256"/>
+				<m_ObjectName text="ICON_BUILDING_SAILOR_AMARGAR_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_BUILDING_SAILOR_AMARGAR_80"/>
+				<m_ObjectName text="ICON_BUILDING_SAILOR_AMARGAR_80"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_BUILDING_SAILOR_AMARGAR_50"/>
+				<m_ObjectName text="ICON_BUILDING_SAILOR_AMARGAR_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_BUILDING_SAILOR_AMARGAR_38"/>
+				<m_ObjectName text="ICON_BUILDING_SAILOR_AMARGAR_38"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_BUILDING_SAILOR_AMARGAR_32"/>
+				<m_ObjectName text="ICON_BUILDING_SAILOR_AMARGAR_32"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_BUILDING_SAILOR_AMARGAR_128"/>
+				<m_ObjectName text="ICON_BUILDING_SAILOR_AMARGAR_128"/>
+			</Element>
+			<!--Wiškar-->
+			<Element>
+				<m_EntryID text="ICON_SAILOR_WISHKAR_256"/>
+				<m_ObjectName text="ICON_SAILOR_WISHKAR_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_WISHKAR_80"/>
+				<m_ObjectName text="ICON_SAILOR_WISHKAR_80"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_WISHKAR_50"/>
+				<m_ObjectName text="ICON_SAILOR_WISHKAR_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_WISHKAR_38"/>
+				<m_ObjectName text="ICON_SAILOR_WISHKAR_38"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_WISHKAR_32"/>
+				<m_ObjectName text="ICON_SAILOR_WISHKAR_32"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_WISHKAR_128"/>
+				<m_ObjectName text="ICON_SAILOR_WISHKAR_128"/>
+			</Element>
+			<!--Wiškar Strategic View-->
+			
+			<!--Royal Hunt-->
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ROYALHUNT_256"/>
+				<m_ObjectName text="ICON_SAILOR_ROYALHUNT_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ROYALHUNT_80"/>
+				<m_ObjectName text="ICON_SAILOR_ROYALHUNT_80"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ROYALHUNT_70"/>
+				<m_ObjectName text="ICON_SAILOR_ROYALHUNT_70"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ROYALHUNT_50"/>
+				<m_ObjectName text="ICON_SAILOR_ROYALHUNT_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ROYALHUNT_38"/>
+				<m_ObjectName text="ICON_SAILOR_ROYALHUNT_38"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ROYALHUNT_32"/>
+				<m_ObjectName text="ICON_SAILOR_ROYALHUNT_32"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_ROYALHUNT_30"/>
+				<m_ObjectName text="ICON_SAILOR_ROYALHUNT_30"/>
+			</Element>
+			<!--Civ-->
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_256"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_256"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_200"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_200"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_22"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_22"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_30"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_30"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_36"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_36"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_44"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_44"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_48"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_48"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_50"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_50"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_64"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_64"/>
+			</Element>
+			<Element>
+				<m_EntryID text="ICON_SAILOR_SASANIAN_80"/>
+				<m_ObjectName text="ICON_SAILOR_SASANIAN_80"/>
+			</Element>
+			
+		</m_Entries>
+		<m_AllowedPlatforms>
+			<Element>WINDOWS</Element>
+			<Element>LINUX</Element>
+			<Element>MACOS</Element>
+			<Element>IOS</Element>
+		</m_AllowedPlatforms>
+	</AssetObjects::XLP>

@@ -1,0 +1,66 @@
+<GameInfo>
+	<IconTextureAtlases>
+		<!--
+		
+		Sassanid
+		
+		-->
+		<!--Civ-->
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_256.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_200.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_22.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_30.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_36.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_44.dds"/>
+		<!--<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CVS_KAWAD_I_COLOR_45.dds"/>-->
+		<!--Suk's Civ Select-->
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_48.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_50.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_64.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CVS_SASANIAN" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_SASANIAN_80.dds"/>
+
+		<!--Aswar UU-->
+		<Row Name="ICON_ATLAS_CVS_ASWAR" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_22.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_32.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_256.dds"/>
+
+		<!--Aswar UU Portrait-->
+		<Row Name="ICON_ATLAS_CVS_ASWAR_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_PORTRAIT_38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_PORTRAIT_50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_PORTRAIT_70.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_PORTRAIT_95.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_PORTRAIT_200.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ASWAR_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ASWAR_PORTRAIT_256.dds"/>
+
+		<!--Wiškar UD-->
+		<Row Name="ICON_ATLAS_CVS_WISHKAR" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_WISHKAR_128.dds"/>
+		<Row Name="ICON_ATLAS_CVS_WISHKAR" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_WISHKAR_32.dds"/>
+		<Row Name="ICON_ATLAS_CVS_WISHKAR" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_WISHKAR_38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_WISHKAR" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_WISHKAR_50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_WISHKAR" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_WISHKAR_80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_WISHKAR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_WISHKAR_256.dds"/>
+
+		<!--Royal Hunt-->
+		<Row Name="ICON_ATLAS_CVS_ROYALHUNT" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ROYALHUNT_30.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ROYALHUNT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ROYALHUNT_32.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ROYALHUNT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ROYALHUNT_38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ROYALHUNT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ROYALHUNT_50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ROYALHUNT" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ROYALHUNT_80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ROYALHUNT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ROYALHUNT_70.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ROYALHUNT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CVS_ROYALHUNT_256.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--
+		Civ
+		-->
+		<Row Name="ICON_CIVILIZATION_CVS_SASANIAN"		 Atlas="ICON_ATLAS_CIV_CVS_SASANIAN" Index="0"/>
+		<Row Name="ICON_UNIT_CVS_ASWAR"					 Atlas="ICON_ATLAS_CVS_ASWAR" Index="0"/>
+		<Row Name="ICON_UNIT_CVS_ASWAR_PORTRAIT"		 Atlas="ICON_ATLAS_CVS_ASWAR_PORTRAIT" Index="0"/>
+		<Row Name="ICON_DISTRICT_CVS_HUNTINGPARK"		 Atlas="ICON_ATLAS_CVS_WISHKAR" Index="0"/>
+		<Row Name="ICON_PROJECT_CVS_ROYALHUNT"			 Atlas="ICON_ATLAS_CVS_ROYALHUNT" Index="0"/>
+	</IconDefinitions>
+</GameInfo>

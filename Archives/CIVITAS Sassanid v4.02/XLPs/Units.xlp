@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="units/units"/>
+	<m_Entries>
+		<!--Aswar-->
+		<Element>
+			<m_EntryID text="Aswar_HorseArmorA"/>
+			<m_ObjectName text="Aswar_HorseArmorA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Aswar_RiderArmor"/>
+			<m_ObjectName text="Aswar_RiderArmor"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Sassanid_UU"/>
+			<m_ObjectName text="CVS_Sassanid_UU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Sassanid_UU_Alt"/>
+			<m_ObjectName text="CVS_Sassanid_UU_Alt"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

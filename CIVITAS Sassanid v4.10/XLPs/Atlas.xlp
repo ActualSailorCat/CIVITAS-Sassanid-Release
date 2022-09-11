@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_200"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_22"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_256"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_30"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_36"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_44"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_48"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_50"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_64"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_SASANIAN_80"/>
+			<m_ObjectName text="ICON_CVS_SASANIAN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ROYALHUNT_256"/>
+			<m_ObjectName text="ICON_CVS_ROYALHUNT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ROYALHUNT_30"/>
+			<m_ObjectName text="ICON_CVS_ROYALHUNT_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ROYALHUNT_32"/>
+			<m_ObjectName text="ICON_CVS_ROYALHUNT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ROYALHUNT_38"/>
+			<m_ObjectName text="ICON_CVS_ROYALHUNT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ROYALHUNT_50"/>
+			<m_ObjectName text="ICON_CVS_ROYALHUNT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ROYALHUNT_70"/>
+			<m_ObjectName text="ICON_CVS_ROYALHUNT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ROYALHUNT_80"/>
+			<m_ObjectName text="ICON_CVS_ROYALHUNT_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_WISHKAR_128"/>
+			<m_ObjectName text="ICON_CVS_WISHKAR_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_WISHKAR_256"/>
+			<m_ObjectName text="ICON_CVS_WISHKAR_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_WISHKAR_32"/>
+			<m_ObjectName text="ICON_CVS_WISHKAR_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_WISHKAR_38"/>
+			<m_ObjectName text="ICON_CVS_WISHKAR_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_WISHKAR_50"/>
+			<m_ObjectName text="ICON_CVS_WISHKAR_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_WISHKAR_80"/>
+			<m_ObjectName text="ICON_CVS_WISHKAR_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_22"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_256"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_32"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_38"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_50"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_80"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CVS_ASWAR_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_CVS_ASWAR_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_CVS_Wishkar"/>
+			<m_ObjectName text="Moment_Infrastructure_CVS_Wishkar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_CVS_Aswar"/>
+			<m_ObjectName text="Moment_UniqueUnit_CVS_Aswar"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
